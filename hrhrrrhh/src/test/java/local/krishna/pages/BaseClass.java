@@ -30,6 +30,7 @@ public class BaseClass {
 	
 	@BeforeSuite
 	public void setUpSuite() {
+		//test
 		excel=new ExcelDataProvider();
 		config=new ConfigDataProvider();
 		
